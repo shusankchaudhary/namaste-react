@@ -1,0 +1,28 @@
+{
+  "name": "namastey-react",
+  "version": "1.0.0",
+  "description": "This is namaste react by Shusank Chaudhary",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shusankchaudhary/namaste-react.git"
+  },
+  "keywords": [
+    "namaste-react"
+  ],
+  "author": "Shusank Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shusankchaudhary/namaste-react/issues"
+  },
+  "homepage": "https://github.com/shusankchaudhary/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
