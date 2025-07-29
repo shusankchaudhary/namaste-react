@@ -25,7 +25,7 @@ const RestaurantCard = (props) => {
       <img className = "restaurant-logo" src = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,e_grayscale,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/6/6/dbd91d15-5a52-475c-8365-04ec271e0acd_ddff3434-36b2-4176-b6b3-ccaf723ac764.jpg" alt ="food"/>
       <h3>{props.resName}</h3>
       <h4>{props.resCusine}</h4>
-      <h4>4.4 Stars</h4>
+      <h4>{props.startRating}</h4>
       <h4>38 Minutes</h4>
     </div>
   )
@@ -52,10 +52,12 @@ const Body =() => {
         <RestaurantCard 
          resName="Meghna Foods"
          resCusine="Briyani, Indian, Asian"
+         startRating="4.5"
          />
         <RestaurantCard
           resName ="KFC"
           resCusine ="fast food, American"
+          startRating="4.2"
          />
         
       </div>
